@@ -12,7 +12,7 @@ app.use(userRouter);
 app.use(taskRouter);
 
 app.listen(port, () => {
-	console.log('Server running on port ' + port);
+	console.log('Server up and running on port ' + port);
 });
 
 // Saving removed code blocks for posterity
